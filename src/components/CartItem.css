@@ -1,0 +1,70 @@
+.cartimage {
+  width: 25%;
+  height: 90%;
+  padding: none;
+}
+
+.cartimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cartlist {
+  background-color: #fff2f2;
+  padding: 10px;
+  width: 50%;
+  height: 200px;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.delbutton {
+  padding: 10px 20px;
+  background-color: #434a54;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.delbutton:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.cartdetails {
+  text-align: left;
+}
+
+.cartdetails h2 {
+  padding-bottom: 5%;
+}
+.input {
+  margin-bottom: 5%;
+  display: flex;
+}
+.input h3 {
+  padding: 10px;
+}
+
+.input button {
+  padding: 6px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #da4453;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.input input {
+  width: 10%;
+  padding: 10px 20px;
+  margin: 0 3%;
+  border: none;
+}
